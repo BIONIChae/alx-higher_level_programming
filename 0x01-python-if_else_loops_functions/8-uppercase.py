@@ -7,5 +7,5 @@ def uppercase(str):
         else:
             caps = val
         up_str += caps
-    print("{:s}".format(up_str), end=" ")
+    print("{:s}".format(up_str), end="")
     print()
