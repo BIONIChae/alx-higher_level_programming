@@ -3,6 +3,6 @@ for num in range(0, 10):
     for dig in range(0, 10):
         if num < dig:
             if (num == 8) and( dig == 9):
-                print(f"{num:d}{dig:d}")
+                print("{:d}{:d}".format(num, dig))
             else:
-                print(f"{num:d}{dig:d}", end=', ')
+                print("{:d}{:d}".format(num, dig), end=', ')
