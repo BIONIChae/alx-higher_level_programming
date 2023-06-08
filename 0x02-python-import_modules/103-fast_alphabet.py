@@ -1,3 +1,3 @@
 #!/usr/bin/python3
 import string
-print(string.ascii_uppercase + '\n', end='')
+print(f"{string.ascii_uppercase}\n", end='')
