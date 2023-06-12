@@ -6,4 +6,3 @@ def multiple_returns(sentence):
     for char in sentence:
         length += 1
     return length, sentence[0]
-
